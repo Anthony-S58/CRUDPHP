@@ -1,0 +1,31 @@
+* {
+    top:0;
+    left:0;
+    box-sizing: border-box;
+}
+
+
+html {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+}
+
+form {
+    margin:150px;
+}
+
+input {
+
+    margin: 10px;
+
+
+}
+
+.descr {
+    height: 100px;
+}
+
+
+
