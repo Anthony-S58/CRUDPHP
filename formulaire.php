@@ -8,9 +8,9 @@ if ($_POST) {
     && isset($_POST['image']) && !empty($_POST['image'])
     && isset($_POST['description']) && !empty($_POST['description'])) {
 
-        $nom = $_POST['nom'];
-        $image = $_POST['image'];
-        $description = $_POST['description'];
+        $nom = strip_tags($_POST['nom']);
+        $image = strip_tags($_POST['image']);
+        $description = strip_tags($_POST['description']);
         
         $sql = "INSERT INTO crud(Nom, Image, Description) VALUES (:nom, :image, :description)";
         $query = $db->prepare($sql);

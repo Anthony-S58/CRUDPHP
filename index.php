@@ -41,6 +41,8 @@ $result = $query->fetchAll(PDO::FETCH_ASSOC);
                 <td><?= $projet['Image'];?></td>
                 <td><?= $projet['Description'];?></td>
                 <td><a href="supprimer.php?ID=<?= $projet['ID'];?>">Supprimer</a> </td>
+                <td><a href="modifier.php?ID=<?= $projet['ID'];?>">modifier</a> </td>
+
 
             </tr>
 
