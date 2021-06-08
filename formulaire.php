@@ -66,6 +66,6 @@ if ($_POST) {
 
 
 ?>
-  <h1>test</h1>  
+    
 </body>
 </html>
